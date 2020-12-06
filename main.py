@@ -62,5 +62,5 @@ async def test(ctx):
 		await ctx.send(e)
 		return
 
-token = 'Nzc5NjM4Mjk3NDQ5ODU3MDM0.X7jcvw.WxrhREPq3VLMkTxGT2hXw8mjLfo'
+token = input("Enter a token: ")
 client.run(token)
